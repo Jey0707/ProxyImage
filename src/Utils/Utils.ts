@@ -30,7 +30,6 @@ class Utils {
             try {
                 const axiosResponse = await axios.get(url, { responseType: 'arraybuffer' });
                 const axiosResponseStatus = axiosResponse.status
-                console.log(axiosResponseStatus)
                 if (axiosResponseStatus != 200 && axiosResponseStatus != 201) throw new Error('Error getting image')
                 const bufferFromResponse = Buffer.from(axiosResponse.data, 'binary')
                 resolve(bufferFromResponse)
