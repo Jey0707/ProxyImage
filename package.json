@@ -1,0 +1,29 @@
+{
+  "name": "proxyimage",
+  "version": "0.0.1",
+  "description": "Proxy Image Server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jey0707/ProxyImage.git"
+  },
+  "author": "Jey0707",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jey0707/ProxyImage/issues"
+  },
+  "homepage": "https://github.com/Jey0707/ProxyImage#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17"
+  }
+}
